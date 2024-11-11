@@ -1,70 +1,19 @@
 {
     "child": {
-        "child1": {
-            "directory": "\/home\/sonyck",
-            "height": 1121,
-            "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
-            "readOnly": false,
-            "synchronizedInput": true,
-            "type": "Terminal",
-            "uuid": "87d0e3cf-90ac-42d6-814c-be86bca8fd40",
-            "width": 925
-        },
-        "child2": {
-            "child1": {
-                "directory": "\/home\/sonyck",
-                "height": 413,
-                "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
-                "readOnly": false,
-                "synchronizedInput": true,
-                "type": "Terminal",
-                "uuid": "a96f089d-75ef-4758-ac26-6046467b83e3",
-                "width": 924,
-                "overrideCommand": "cmatrix"
-            },
-            "child2": {
-                "child1": {
-                    "directory": "\/home\/sonyck",
-                    "height": 500,
-                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
-                    "readOnly": false,
-                    "synchronizedInput": true,
-                    "type": "Terminal",
-                    "uuid": "2dbea4ea-7277-434a-b74b-07db9d015a41",
-                    "width": 924,
-                    "overrideCommand": "sh /home/sonyck/bin/inf-cbonsai"
-                },
-                "child2": {
-                    "directory": "\/home\/sonyck",
-                    "height": 206,
-                    "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
-                    "readOnly": false,
-                    "synchronizedInput": true,
-                    "type": "Terminal",
-                    "uuid": "13908455-0820-4c21-80c5-f8c0b02e1a56",
-                    "width": 924,
-                    "overrideCommand": "cava"
-                },
-                "orientation": 1,
-                "position": 44,
-                "ratio": 0.707213578500707207,
-                "type": "Paned"
-            },
-            "orientation": 1,
-            "position": 36,
-            "ratio": 0.368421052631578927,
-            "type": "Paned"
-        },
-        "orientation": 0,
-        "position": 50,
-        "ratio": 0.5,
-        "type": "Paned"
+        "directory": "\/home\/sonyck",
+        "height": 665,
+        "profile": "2b7c4080-0ddd-46c5-8f23-563fd3ba789d",
+        "readOnly": false,
+        "synchronizedInput": true,
+        "type": "Terminal",
+        "uuid": "87d0e3cf-90ac-42d6-814c-be86bca8fd40",
+        "width": 1453
     },
-    "height": 1121,
+    "height": 665,
     "name": "${title}",
     "synchronizedInput": false,
     "type": "Session",
     "uuid": "71a7f3ba-fa64-4426-871d-f36b6d0e2b50",
     "version": "1.0",
-    "width": 1850
+    "width": 1453
 }

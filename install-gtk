@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # prereqs
-sudo apt install gtk2-engines-murrine sassc gnome-themes-extra
+sudo apt install gtk2-engines-murrine sassc gnome-themes-extra -y
 
 # install the GTK theme
+sudo mkdir -p ~/.config/gtk-3.0
+sudo mkdir -p ~/.config/gtk-4.0
 sudo cp -r ./gtk/gtk-3.0/* ~/.config/gtk-3.0
 sudo cp -r ./gtk/gtk-4.0/* ~/.config/gtk-4.0
 
