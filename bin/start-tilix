@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if Tilix is already running
+if pgrep -x "tilix" > /dev/null
+then
+    # Tilix is running, just focus the window
+    tilix
+else
+    # Tilix is not running, start with the specific session
+    tilix --session /home/sonyck/.config/tilix/tilix-session.json
+fi

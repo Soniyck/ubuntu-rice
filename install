@@ -1,0 +1,9 @@
+#!/bin/bash
+./install-basic
+./install-terminal
+./install-coms
+./install-dotnet
+./install-devtools
+./install-apps
+./install-gtk
+./install-other

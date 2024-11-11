@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# install chrome
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome*.deb
+rm ./google-chrome*.deb
+
+
+sudo snap install spotify --classic
+sudo snap install standard-notes --classic

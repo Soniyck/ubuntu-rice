@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json
+code --install-extension vscodevim.vim

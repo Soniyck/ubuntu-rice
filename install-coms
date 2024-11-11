@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# install mattermost
+curl -fsS -o- https://deb.packages.mattermost.com/setup-repo.sh | sudo bash
+sudo apt install mattermost-desktop -y
+sudo apt upgrade mattermost-desktop -y
+
+
+sudo snap install slack
+sudo snap install discord
+sudo snap install telegram-desktop --classic

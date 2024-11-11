@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo cp ~/.config/Code/User/settings.json ./config/vscode-settings.json
+echo -e "#!/bin/bash\n" > ./install-devtools_vscode
+echo -e "sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json" >> ./install-devtools_vscode
+code --list-extensions | xargs -L 1 echo code --install-extension >> ./install-devtools_vscode

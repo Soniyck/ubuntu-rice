@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "$HOME/.vimrc"
+}

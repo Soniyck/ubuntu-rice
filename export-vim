@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo cp ~/.vimrc ./config
+sudo cp ~/.ideavimrc ./config

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# prereqs
+sudo apt install gtk2-engines-murrine sassc gnome-themes-extra
+
+# install the GTK theme
+sudo cp -r ./gtk/gtk-3.0/* ~/.config/gtk-3.0
+sudo cp -r ./gtk/gtk-4.0/* ~/.config/gtk-4.0
+
+# backup old conf
+dconf dump / > ./backup/dconf-settings-backup.ini
+
+# gnome config (including extensions)
+dconf load / < ./config/dconf-settings.ini

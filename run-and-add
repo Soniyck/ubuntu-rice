@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if at least one argument is provided
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <command>"
+    exit 1
+fi
+
+# The file where commands are stored
+HISTORY_FILE="./install-other"
+
+# Concatenate the provided arguments into a single command string
+COMMAND="$*"
+
+# Append the command to the file
+echo -e "\n$COMMAND" >> "$HISTORY_FILE"
+
+# Execute the command
+eval "$COMMAND"

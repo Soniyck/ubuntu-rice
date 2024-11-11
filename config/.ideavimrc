@@ -1,0 +1,27 @@
+" source the general vim config
+source ~/.vimrc
+
+" -------- IdeaVim-Specific Configuration --------
+set multiple-cursors      " Enable multiple cursors (if IdeaVim supports it)
+
+" -------- Keybindings --------
+" IDE-specific actions
+nmap zc :action CollapseRegion<CR>
+nmap zo :action ExpandRegion<CR>
+
+" Use ctrl f to open file explorer (if specific to Rider IDE)
+map <C-f> :NERDTree<CR>  " Adjust this command if it applies only in IdeaVim context
+
+nnoremap <leader>rf :action RenameFile<CR>
+
+" Navigation actions for errors
+nnoremap ]e :action GotoNextError<CR>
+nnoremap [e :action GotoPrevError<CR>
+
+" Debugging keybindings
+map <leader>d <Action>(Debug)
+nmap <leader>rr <Action>(RenameElement)
+nmap <leader>rf <Action>(RenameFile)
+
+" -------- TODO --------
+"" mapping for highlighting editor window after clicking \d for debugging
