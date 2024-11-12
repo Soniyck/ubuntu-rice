@@ -1,5 +1,9 @@
 # Sonyck Rice for Ubuntu 22.04
 
+!!!! TODO
+- [ ] get ${USER} name instead of hardcoded user name
+
+
 ## Content
 
 ## Installation
@@ -73,6 +77,9 @@ Run `./install-basic`
 
 | Name                                                           | Type   |
 |----------------------------------------------------------------|--------|
+| npm                                                            | pckg   |
+| nvm                                                            | pckg   |
+| node                                                           | pckg   |
 | rider                                                          | app    |
 | vscode                                                         | app    |
 | vscode-extensions                                              | plugin |
