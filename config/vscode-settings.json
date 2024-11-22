@@ -1,5 +1,28 @@
 {
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "vim.vimrc.enable": true,
-    "vim.vimrc.path": "$HOME/.vimrc"
+    "vim.vimrc.path": "$HOME/.vimrc",
+    "vim.digraphs": {
+
+
+    },
+    // Custom settings
+    "vim.scroll": 5,  // Equivalent to `set scrolloff=5`
+    "vim.relativeNumbers": true,  // Equivalent to `set relativenumber`
+    "vim.incsearch": true,  // Equivalent to `set incsearch` (default is true)
+    "vim.hlsearch": true,  // Equivalent to `set hlsearch` (default is true)
+    "vim.ignorecase": true,  // Equivalent to `set ignorecase`
+    "vim.useSystemClipboard": true,  // Equivalent to `set clipboard=unnamedplus`
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["f"],
+            "after": ["<Plug>Sneak_s"]
+        },
+        {
+            "before": ["F"],
+            "after": ["<Plug>Sneak_S"]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.duration": 300
 }
