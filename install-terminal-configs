@@ -3,4 +3,6 @@
 # move config files
 sudo cp ./config/.zshrc ~/.zshrc
 sudo cp ./config/.p10k.zsh ~/.p10k.zsh
+sudo cp ./bin/fix-fn-keys /etc/init.d/fix-fn-keys
+sudo chmod +x /etc/init.d/fix-fn-keys
 source ~/.zshrc

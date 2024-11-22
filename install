@@ -6,4 +6,5 @@
 ./install-devtools
 ./install-apps
 ./install-gtk
+./install-swap
 ./install-other
