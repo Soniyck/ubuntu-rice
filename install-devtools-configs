@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# rider configs
+sudo cp ./config/.ideavimrc ~
+
+# vscode configs
+sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json

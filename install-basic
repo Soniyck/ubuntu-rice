@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# make sure all is up to date
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
 # basic libs
 sudo apt-get install -y	git curl neovim
 
@@ -9,6 +13,9 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 
 # copy vim config
 sudo cp ./config/.vimrc ~
+sudo cp ./config/.init.vim ~/.config/nvim/init.vim
+
+vim +'PlugInstall --sync' +qa
 
 # gnome
 sudo apt-get install -y

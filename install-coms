@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# make sure all is up to date
+sudo apt-get update -y
+sudo apt-get upgrade -y
+
 # install mattermost
 curl -fsS -o- https://deb.packages.mattermost.com/setup-repo.sh | sudo bash
 sudo apt install mattermost-desktop -y
