@@ -5,3 +5,4 @@ sudo cp ./config/.ideavimrc ~
 
 # vscode configs
 sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json
+sudo cp ./config/vscode-keybindings.json ~/.config/Code/User/keybindings.json
