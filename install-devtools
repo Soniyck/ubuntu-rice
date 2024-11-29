@@ -15,6 +15,9 @@ source ~/.zshrc
 
 nvm install -lts
 
+# install gimp
+sudo apt install gimp -y
+
 # install rider
 sudo snap install rider --classic
 
