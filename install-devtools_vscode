@@ -1,5 +1,11 @@
--e #!/bin/bash
+#!/bin/bash
 
--e sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json
+sudo cp ./config/vscode-settings.json ~/.config/Code/User/settings.json
+code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.cpptools-extension-pack
+code --install-extension ms-vscode.cpptools-themes
+code --install-extension ms-vscode.makefile-tools
+code --install-extension supermaven.supermaven
+code --install-extension twxs.cmake
 code --install-extension vscodevim.vim

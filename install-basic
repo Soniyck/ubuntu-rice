@@ -36,3 +36,6 @@ sudo cp config/tilix-session.json ~/.config/tilix/
 
 # executables / helper scripts
 sudo cp -r bin ~/
+
+# env control
+sudo apt install wmctrl

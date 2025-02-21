@@ -24,5 +24,11 @@
         }
     ],
     "vim.highlightedyank.enable": true,
-    "vim.highlightedyank.duration": 300
+    "vim.highlightedyank.duration": 300,
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "workbench.sideBar.location": "right",
+    "workbench.editor.showTabs": "none",
+    "vim.commandLineModeKeyBindings": [
+
+    ]
 }
