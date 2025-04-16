@@ -1,6 +1,7 @@
 #!/bin/bash
 ./install-basic
 ./install-terminal
+./install-remote
 ./install-coms
 ./install-dotnet
 ./install-devtools
